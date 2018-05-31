@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+.nodots {
+  list-style-type: none;
+}
+
+.background {
+  background-color: pink;
+}
+
+.menu-children {
+  display: none;
+}
+.menu-item-has-children:hover .menu-children {
+  display: block;
+}
